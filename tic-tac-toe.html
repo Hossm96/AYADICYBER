@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة XO - Cyber Ayadi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tic-tac-toe.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">Cyber Ayadi</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="gaming.html">الألعاب</a></li>
+                <li><a href="tech-services.html">الخدمات التقنية</a></li>
+                <li><a href="packages.html">الباقات</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game-section">
+            <h2>لعبة XO</h2>
+            <div class="game-container">
+                <div class="game-status">
+                    <span class="player-turn">دور اللاعب: X</span>
+                    <button class="reset-btn">لعبة جديدة</button>
+                </div>
+                <div class="board">
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                </div>
+                <div class="winning-message" id="winningMessage">
+                    <div class="winning-text"></div>
+                    <button class="reset-btn">العب مرة أخرى</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>جميع الحقوق محفوظة &copy; 2024 - Cyber Ayadi</p>
+    </footer>
+
+    <script src="js/tic-tac-toe.js"></script>
+</body>
+</html>

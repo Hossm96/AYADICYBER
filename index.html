@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقهى الإنترنت</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/job-ads.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/jobs.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>مقهى النت</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#prices">الأسعار</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#job-ads">إعلانات الوظائف</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>مرحباً بكم في مقهى النت</h1>
+                <p>استمتع بأفضل خدمات الإنترنت والألعاب في المدينة</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>صور من المقهى</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c" alt="منطقة الألعاب">
+                    <div class="gallery-caption">منطقة الألعاب</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2" alt="ركن القهوة">
+                    <div class="gallery-caption">ركن القهوة</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" alt="منطقة العمل">
+                    <div class="gallery-caption">منطقة العمل</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>خدماتنا</h2>
+            <div class="services-grid">
+                <a href="internet.html" class="service-card">
+                    <i class="fas fa-wifi"></i>
+                    <h3>إنترنت فائق السرعة</h3>
+                    <p>اتصال سريع وموثوق به</p>
+                </a>
+                <a href="printing.html" class="service-card">
+                    <i class="fas fa-print"></i>
+                    <h3>خدمات الطباعة</h3>
+                    <p>طباعة ملونة وأبيض وأسود</p>
+                </a>
+                <a href="cafe.html" class="service-card">
+                    <i class="fas fa-coffee"></i>
+                    <h3>مقهى</h3>
+                    <p>مشروبات ووجبات خفيفة</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="prices" class="prices">
+            <h2>الأسعار</h2>
+            <div class="price-cards">
+                <div class="price-card">
+                    <h3>ساعة واحدة</h3>
+                    <p class="price">10 درهم</p>
+                    <ul>
+                        <li>إنترنت سريع</li>
+                        <li>جهاز حديث</li>
+                        <li>مشروب مجاني</li>
+                    </ul>
+                </div>
+                <div class="price-card featured">
+                    <h3>5 ساعات</h3>
+                    <p class="price">40 درهم</p>
+                    <ul>
+                        <li>إنترنت سريع</li>
+                        <li>جهاز حديث</li>
+                        <li>مشروبات مجانية</li>
+                        <li>وجبة خفيفة</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>يوم كامل</h3>
+                    <p class="price">80 درهم</p>
+                    <ul>
+                        <li>إنترنت سريع</li>
+                        <li>جهاز حديث</li>
+                        <li>مشروبات غير محدودة</li>
+                        <li>وجبتين خفيفتين</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="job-ads" class="job-ads-section">
+            <h2>إعلانات الوظائف</h2>
+            <div class="job-ads-grid">
+                <!-- وظيفة من Rekrute.com -->
+                <div class="job-ad-card">
+                    <div class="job-ad-header">
+                        <span class="urgent-tag">عاجل</span>
+                        <h3>مهندس برمجيات Full Stack</h3>
+                        <div class="company-info">
+                            <i class="fas fa-building"></i>
+                            <span>OCP Digital</span>
+                        </div>
+                    </div>
+                    <div class="job-ad-content">
+                        <div class="job-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>الدار البيضاء</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>دوام كامل</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>بكالوريوس+</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>3-5 سنوات خبرة</span>
+                            </div>
+                        </div>
+                        <p class="job-description">
+                            نبحث عن مهندس برمجيات متمرس للعمل على مشاريع رقمية مبتكرة. المرشح المثالي لديه خبرة في React.js و Node.js.
+                        </p>
+                        <a href="https://www.rekrute.com/offre-emploi-developpeur-fullstack-senior-hf-recrutement-ocp-digital-casablanca-207442.html" class="apply-link" target="_blank">
+                            تقدم للوظيفة
+                        </a>
+                        <div class="source-tag">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Rekrute.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- وظيفة من ANAPEC -->
+                <div class="job-ad-card">
+                    <div class="job-ad-header">
+                        <h3>مدير مشاريع تقنية المعلومات</h3>
+                        <div class="company-info">
+                            <i class="fas fa-building"></i>
+                            <span>Maroc Telecom</span>
+                        </div>
+                    </div>
+                    <div class="job-ad-content">
+                        <div class="job-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>الرباط</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>دوام كامل</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>ماجستير</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>5+ سنوات خبرة</span>
+                            </div>
+                        </div>
+                        <p class="job-description">
+                            مطلوب مدير مشاريع لقيادة مشاريع تحول رقمي. خبرة في إدارة المشاريع وشهادة PMP مطلوبة.
+                        </p>
+                        <a href="https://www.anapec.org" class="apply-link" target="_blank">
+                            تقدم للوظيفة
+                        </a>
+                        <div class="source-tag">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>ANAPEC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- وظيفة حكومية -->
+                <div class="job-ad-card">
+                    <div class="job-ad-header">
+                        <h3>مهندس دولة في المعلوميات</h3>
+                        <div class="company-info">
+                            <i class="fas fa-building"></i>
+                            <span>وزارة الرقمنة</span>
+                        </div>
+                    </div>
+                    <div class="job-ad-content">
+                        <div class="job-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>الرباط</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>دوام كامل</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>مهندس دولة</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>حديث التخرج</span>
+                            </div>
+                        </div>
+                        <p class="job-description">
+                            مباراة توظيف مهندسي الدولة في المعلوميات. آخر أجل للترشيح: 30 يونيو 2024.
+                        </p>
+                        <a href="https://www.emploi-public.ma" class="apply-link" target="_blank">
+                            تقدم للوظيفة
+                        </a>
+                        <div class="source-tag">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>emploi-public.ma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- وظيفة من Rekrute.com -->
+                <div class="job-ad-card">
+                    <div class="job-ad-header">
+                        <h3>محلل بيانات</h3>
+                        <div class="company-info">
+                            <i class="fas fa-building"></i>
+                            <span>BMCE Bank</span>
+                        </div>
+                    </div>
+                    <div class="job-ad-content">
+                        <div class="job-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>الدار البيضاء</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>دوام كامل</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>ماجستير</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>2-4 سنوات خبرة</span>
+                            </div>
+                        </div>
+                        <p class="job-description">
+                            مطلوب محلل بيانات للعمل على مشاريع التحليل المالي. خبرة في Python و SQL و Power BI مطلوبة.
+                        </p>
+                        <a href="https://www.rekrute.com" class="apply-link" target="_blank">
+                            تقدم للوظيفة
+                        </a>
+                        <div class="source-tag">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Rekrute.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mini-game" class="game-section">
+            <h2>العب معنا!</h2>
+            <div class="game-container">
+                <canvas id="snakeGame" width="400" height="400"></canvas>
+                <div class="game-controls">
+                    <p class="score">النقاط: <span id="score">0</span></p>
+                    <button id="startGame" class="game-button">ابدأ اللعب</button>
+                    <p class="game-instructions">استخدم أسهم لوحة المفاتيح للتحكم في الثعبان</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>اتصل بنا</h2>
+            <div class="contact-info">
+                <div>
+                    <i class="fab fa-whatsapp"></i>
+                    <p><a href="https://wa.me/212709054931" target="_blank" class="whatsapp-link">+212709054931</a></p>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><a href="https://www.google.com/maps?q=27.151911,-13.199028" target="_blank" class="maps-link">حي المسيرة قرب سطاسيون اطلس العيون</a></p>
+                </div>
+                <div>
+                    <i class="fas fa-clock"></i>
+                    <p>ساعات العمل: 9:30 - 23:00</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024 مقهى النت</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="js/snake-game.js"></script>
+</body>
+</html>
